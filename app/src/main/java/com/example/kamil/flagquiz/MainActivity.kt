@@ -8,14 +8,14 @@ import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
-import android.content.res.Configuration;
+import android.content.res.Configuration
 import android.preference.PreferenceManager
 import android.view.View
 import android.widget.Toast
 
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
-import android.support.v4.app.Fragment;
+import android.support.v4.app.Fragment
 
 class MainActivity : AppCompatActivity() {
     companion object {
@@ -24,9 +24,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     // Wymusza tryb portretowy
-    private var phoneDevice = false
+    private var phoneDevice = true
     // Informuje czy preferencje zostały zmienione
-    private var preferencesChanged = false
+    private var preferencesChanged = true
 
     private var preferencesChangeListener = PreferencesListener()
 
